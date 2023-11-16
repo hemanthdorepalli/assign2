@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    background-color: rgb(254, 0, 0);
+}
+#id1{
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;  
+}
+#id2{
+    width: 70vw;
+    height: 30vh;
+    padding-left: 0px;
+    padding-top: 30px;
+    line-height: 50px;
+}
+.settings{
+    width: 100vw;
+    height: 23.333vh;
+    display: flex;
+}
+#id3{
+     border: 1px rgba(227, 198, 198, 0.342) solid; 
+    width: 20vw;
+    height: 23.333vh;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id4{
+    border: 1px rgba(227, 198, 198, 0.342) solid;  
+    width: 80vw;
+    height: 23.333vh;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.profile{
+    width: 100vw;
+    height: 23.333vh;
+    display: flex;
+}
+#id5{
+    border: 1px rgba(227, 198, 198, 0.342) solid;  
+    width: 20vw;
+    height: 23.333vh;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id6{
+    border: 1px rgba(227, 198, 198, 0.342) solid;  
+    width: 80vw;
+    height: 23.333vh;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.logout{
+    width: 100vw;
+    height: 23.333vh;
+    display: flex;
+}
+#id7{
+    border: 1px rgba(227, 198, 198, 0.342) solid;  
+    width: 20vw;
+    height: 23.333vh;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#id8{
+    border: 1px rgba(227, 198, 198, 0.342) solid;  
+    width: 80vw;
+    height: 23.333vh;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+}
+@media screen and (max-width:768px) {
+    .parent{
+        
+        width: auto;
+        height: auto;
+    }
+    .header{
+        width: auto;
+        height: 30%;
+        display: block;
+    }
+    #id1{
+        position: absolute;
+        right: 30px;
+        top: -40px;
+        
+       
+    }
+    #id2{
+        width: 70%;
+        height: 30%;
+        padding: auto;
+    }
+    .settings{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #id3{
+        border: 1px rgba(227, 198, 198, 0.342) solid; 
+        
+        width: 20%;
+        height: auto;
+        font-size: auto;
+        display: block;
+        
+    }
+    #id4{
+        border: 1px rgba(227, 198, 198, 0.342) solid;  
+        width: 80%;
+        height: auto;
+        padding-left: 0px;
+        
+    }
+    .profile{
+      
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #id5{
+        border: 1px rgba(227, 198, 198, 0.342) solid;  
+        width: 20%;
+        height: auto;
+        font-size: auto;
+        display: block;
+        
+    }
+    #id6{
+        border: 1px rgba(227, 198, 198, 0.342) solid;  
+        width: 80%;
+        height: auto;
+        padding-left: 0px;
+        
+    }
+    .logout{
+       
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    #id7{
+        border: 1px rgba(227, 198, 198, 0.342) solid;  
+        width: 20%;
+        height: auto;
+        font-size: auto;
+        display: block;
+        
+    }
+    #id8{
+        border: 1px rgba(227, 198, 198, 0.342) solid;  
+        width: 80%;
+        height: auto;
+        padding-left: 0px;
+    }
+   
+    
+}
